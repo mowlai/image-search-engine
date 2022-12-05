@@ -9,3 +9,10 @@ Specific techniques that the we learned and implemented:
 - **building recurrent neural networks with LSTM and GRU units**
 - **generating natural language image descriptions (=image captioning)**
 - **representing words and sentences with vector embeddings (Word2Vec, GloVe, and BERT)** <br/>
+
+Main goal was to build an image search engine on COCO dataset in two steps:
+1. Train a model for image captioning.
+2. Build a similarity function for generated queries.
+
+
+The baseline (InceptionV3 and Jaccard-Distance; score 0.06597) could be found here https://github.com/SapienzaTrainingCamp/GoogleTrainingCamp
